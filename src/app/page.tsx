@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "next/image";
+import bagHome from "../../public/bagHome.png";
 import Link from 'next/link'
 export default function page() {
   return (
@@ -19,13 +20,13 @@ export default function page() {
           </p>
         </div>
         <div className="mt-4 w-80 h-96 border border-[var(--color-primary)] rounded-3xl flex flex-col  items-center">
-          {/* <Image
+          <Image
             className="mt-14"
-            src={Bag}
+            src={bagHome}
             width={77}
             height={60}
             alt="Start now"
-          /> */}
+          />
           <p className="text-[var(--color-primary)] text-3xl pt-10">
             Brand or organization
           </p>
