@@ -2,9 +2,11 @@ import React from 'react'
 import Image from "next/image";
 import bagHome from "../../public/bagHome.png";
 import Link from 'next/link'
+import NavBar from '@/components/layout/NavBar';
 export default function page() {
   return (
     <div>
+      <NavBar/>
     <div className="pt-16 flex flex-col justify-center items-center">
         <div className="flex flex-col mt-6 gap-y-2.5 justify-center w-[90%] lg:w-[60%] text-center lg:mx-auto max-[1024px]:text-left">
           <p className="lg:mx-auto max-[1024px]:text-center text-[var(--color-primary)] text-3xl">
